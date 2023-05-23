@@ -26,6 +26,7 @@ pub struct Flags {
 
 impl Flags {
     pub fn new() -> Self {
+        log::info!("Flags::new");
         Self {
             C: 0,
             Z: 0,

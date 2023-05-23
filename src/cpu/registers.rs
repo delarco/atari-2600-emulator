@@ -20,13 +20,14 @@ pub struct Registers {
 
 impl Registers {
     pub fn new() -> Self {
+        log::info!("Registers::new");
         Self {
             A: 0,
             X: 0,
             Y: 0,
             PC: 0,
             S: 0,
-            P:0,
+            P: 0,
         }
     }
 }
