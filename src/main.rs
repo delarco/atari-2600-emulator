@@ -1,3 +1,7 @@
+mod cpu;
+use cpu::CPU;
+
 fn main() {
-    println!("atari 2600 emulator");
+
+    let cpu = CPU::new();
 }
